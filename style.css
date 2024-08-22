@@ -1,0 +1,59 @@
+div {border: 2px solid black;
+     border-radius: 50px;
+     }
+ h1 {text-align: center;} 
+ h2 {text-align: center;} 
+ img {border-radius: 100px; 
+     padding: 25px;}
+ 
+ .sub-button {
+     color: white;
+     background: #ff4040;
+     height: 100px;
+     width: 200px;
+     border: solid;
+     border-radius: 10px;
+     Font-size: 25px; 
+     cursor: pointer;
+     margin-bottom: 20px;
+     margin-right: 20px;
+     transition: box-shadow 1s;
+     }
+     
+.sub-button:hover{
+    box-shadow: 10px 10px 50px blue;
+}
+  
+ .join-button{
+     color: blue;
+     background-color: white;
+     height: 50px;
+     width: 100px;
+     border-style: solid;
+     border-radius: 2px;
+     border-color:blue;
+     font-size: 20px;
+     transition: 1s;      
+     
+ }
+ 
+ .join-button:hover{
+     background-color: blue;
+     color: white;
+     font-size: 30px;
+ }
+  
+  .join-button:active{
+      opacity: 0.3;
+  } 
+
+.cursor {
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    pointer-events: none; /* So it doesn't block other elements from being clicked */
+    z-index: 1000;
+}
